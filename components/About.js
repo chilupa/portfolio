@@ -3,25 +3,20 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="h-screen snap-start flex items-center justify-center px-8 pt-20"
-    >
-      <div className="max-w-3xl text-center">
-        <h1 className="text-5xl font-bold text-indigo-400 mb-4">
-          Hey, I'm Pavan
-        </h1>
-        <p className="text-lg text-gray-300">
+    <section id="about" className="about-section">
+      <div className="about-container">
+        <h1 className="about-title">Hey, I'm Pavan</h1>
+        <p className="about-description">
           Full-stack dev. React on the front, Node and Java in the back.
           Obsessed with clean UIs, solid APIs, and whatever AWS is throwing at
           me today.
         </p>
-        <div className="flex justify-center gap-6 mt-4">
+        <div className="about-social">
           <a
             href={process.env.NEXT_PUBLIC_GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="text-gray-300  text-2xl hover:text-teal-400"
+            className="about-social-link"
           >
             <FaGithub />
           </a>
@@ -29,7 +24,7 @@ const About = () => {
             href={process.env.NEXT_PUBLIC_LINKEDIN_URL}
             target="_blank"
             rel="noopener noreferrer nofollow"
-            className="text-gray-300 text-2xl hover:text-teal-400"
+            className="about-social-link"
           >
             <FaLinkedin />
           </a>

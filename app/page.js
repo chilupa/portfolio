@@ -5,7 +5,7 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="bg-gray-950 text-white h-screen w-screen overflow-y-scroll snap-y snap-mandatory">
+    <main className="main-container">
       <Header />
       <About />
       <Projects />
