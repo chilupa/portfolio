@@ -14,7 +14,7 @@ const Contact = () => {
         <p className="text-gray-300 mb-4">I'd love to hear from you.</p>
         <div className="flex justify-center">
           <a
-            href={process.env.EMAIL}
+            href={process.env.NEXT_PUBLIC_EMAIL}
             rel="nofollow"
             className="inline-flex items-center gap-3 bg-indigo-400 rounded text-black px-6 py-3 font-medium shadow-lg hover:bg-teal-400 transition"
           >

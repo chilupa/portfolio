@@ -18,7 +18,7 @@ const About = () => {
         </p>
         <div className="flex justify-center gap-6 mt-4">
           <a
-            href={process.env.GITHUB_URL}
+            href={process.env.NEXT_PUBLIC_GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-gray-300  text-2xl hover:text-teal-400"
@@ -26,7 +26,7 @@ const About = () => {
             <FaGithub />
           </a>
           <a
-            href=""
+            href={process.env.NEXT_PUBLIC_LINKEDIN_URL}
             target="_blank"
             rel="noopener noreferrer nofollow"
             className="text-gray-300 text-2xl hover:text-teal-400"
