@@ -9,7 +9,7 @@ const Contact = () => {
         <p className="contact-description">I'd love to hear from you.</p>
         <div className="contact-button-container">
           <a
-            href={process.env.NEXT_PUBLIC_EMAIL}
+            href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}
             rel="nofollow"
             className="contact-button"
           >
